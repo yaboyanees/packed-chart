@@ -19,7 +19,7 @@
         //*************************************************
         // GET THE CSV DATA
         //*************************************************
-        d3.csv("https://s3-us-west-2.amazonaws.com/s.cdpn.io/565729/Football_Data.csv", function(error, data) {
+        d3.csv("https://github.com/yaboyanees/packed-chart/raw/master/Football_Data.csv", function(error, data) {
 
             _.each(data, function(element, index, list) {
                 element.pop = +element.pop;
